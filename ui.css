@@ -1,0 +1,1003 @@
+.playerStats {
+    position: absolute;
+    left: 350px;
+    /* Default: 350px */
+    /* Default: 20px */
+    left: 1.49%;
+    /* (18.2% Right Side of Map) | (82.0% Right Side of Screen) | (2.7% Above Map)  */
+    bottom: 0.15%;
+    /* (1.85% Default-Fix for all 16:9 resolutions) | (21.0% Above Map) */
+}
+
+@media only screen and (max-width: 1600px) {
+    body .playerStats {
+        position: absolute;
+        left: 350px;
+        /* Default: 350px */
+        bottom: 20px;
+        /* Default: 20px */
+        left: 1.3%;
+        /* (18.2% Right Side of Map) | (82.0% Right Side of Screen) | (2.7% Above Map)  */
+        bottom: 0.05%;
+        /* (1.85% Default-Fix for all 16:9 resolutions) | (21.0% Above Map) */
+    }
+}
+
+@media only screen and (max-width: 1366px) {
+  body .playerStats {
+      position: absolute;
+      left: 350px;
+      /* Default: 350px */
+      bottom: 20px;
+      /* Default: 20px */
+      left: 1.3%;
+      /* (18.2% Right Side of Map) | (82.0% Right Side of Screen) | (2.7% Above Map)  */
+      bottom: 0.05%;
+      /* (1.85% Default-Fix for all 16:9 resolutions) | (21.0% Above Map) */
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  body .playerStats {
+      position: absolute;
+      left: 350px;
+      /* Default: 350px */
+      bottom: 20px;
+      /* Default: 20px */
+      left: 1.3%;
+      /* (18.2% Right Side of Map) | (82.0% Right Side of Screen) | (2.7% Above Map)  */
+      bottom: 0.05%;
+      /* (1.85% Default-Fix for all 16:9 resolutions) | (21.0% Above Map) */
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  body .playerStats {
+      position: absolute;
+      left: 350px;
+      /* Default: 350px */
+      bottom: 20px;
+      /* Default: 20px */
+      left: 1.1%;
+      /* (18.2% Right Side of Map) | (82.0% Right Side of Screen) | (2.7% Above Map)  */
+      bottom: 0.05%;
+      /* (1.85% Default-Fix for all 16:9 resolutions) | (21.0% Above Map) */
+  }
+}
+
+.status {
+    display: flex;
+    bottom: 12px;
+    width: 270px;
+    position: relative;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 1600px) {
+    body .status {
+        display: flex;
+        bottom: 9px;
+        width: 225px;
+        position: relative;
+        justify-content: space-between;
+    }
+}
+
+@media only screen and (max-width: 1366px) {
+  body .status {
+      display: flex;
+      bottom: 5px;
+      width: 193px;
+      position: relative;
+      justify-content: space-between;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  body .status {
+      display: flex;
+      bottom: 11px;
+      width: 257px;
+      position: relative;
+      justify-content: space-between;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  body .status {
+      display: flex;
+      bottom: 6px;
+      width: 193px;
+      position: relative;
+      justify-content: space-between;
+  }
+}
+
+.can {
+    border: 2px solid rgba(56, 56, 56, 0.781);
+    width: 80px;
+    height: 20px;
+    position: relative;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.4);
+    rotate: z 9.43rad;
+}
+
+@media only screen and (max-width: 1600px) {
+    body .can {
+        border: 2px solid rgba(56, 56, 56, 0.781);
+        width: 90px;
+        height: 20px;
+        position: relative;
+        overflow: hidden;
+        background-color: rgba(0, 0, 0, 0.4);
+        rotate: z 9.43rad;
+    }
+}
+
+@media only screen and (max-width: 1366px) {
+  body .can {
+      border: 2px solid rgba(56, 56, 56, 0.781);
+      width: 90px;
+      height: 19px;
+      position: relative;
+      overflow: hidden;
+      background-color: rgba(0, 0, 0, 0.4);
+      rotate: z 9.43rad;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  body .can {
+      border: 2px solid rgba(56, 56, 56, 0.781);
+      width: 90px;
+      height: 23px;
+      position: relative;
+      overflow: hidden;
+      background-color: rgba(0, 0, 0, 0.4);
+      rotate: z 9.43rad;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  body .can {
+      border: 2px solid rgba(56, 56, 56, 0.781);
+      width: 90px;
+      height: 19px;
+      position: relative;
+      overflow: hidden;
+      background-color: rgba(0, 0, 0, 0.4);
+      rotate: z 9.43rad;
+  }
+}
+
+.can .bg {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    rotate: z 9.43rad;
+}
+
+.can img {
+    width: 14px;
+    position: absolute;
+    box-shadow: #000000;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.armor {
+    border: 2px solid rgba(56, 56, 56, 0.781);
+    width: 80px;
+    height: 20px;
+    position: relative;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.4);
+    rotate: z 9.43rad;
+}
+
+@media only screen and (max-width: 1600px) {
+    body .armor {
+        border: 2px solid rgba(56, 56, 56, 0.781);
+        width: 100px;
+        height: 20px;
+        position: relative;
+        overflow: hidden;
+        background-color: rgba(0, 0, 0, 0.4);
+        rotate: z 9.43rad;
+    }
+}
+
+@media only screen and (max-width: 1366px) {
+  body .armor {
+      border: 2px solid rgba(56, 56, 56, 0.781);
+      width: 100px;
+      height: 19px;
+      position: relative;
+      overflow: hidden;
+      background-color: rgba(0, 0, 0, 0.4);
+      rotate: z 9.43rad;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  body .armor {
+      border: 2px solid rgba(56, 56, 56, 0.781);
+      width: 100px;
+      height: 23px;
+      position: relative;
+      overflow: hidden;
+      background-color: rgba(0, 0, 0, 0.4);
+      rotate: z 9.43rad;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  body .armor {
+      border: 2px solid rgba(56, 56, 56, 0.781);
+      width: 100px;
+      height: 19px;
+      position: relative;
+      overflow: hidden;
+      background-color: rgba(0, 0, 0, 0.4);
+      rotate: z 9.43rad;
+  }
+}
+
+.armor .bg {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    rotate: z 9.43rad;
+}
+
+.armor img {
+    width: 14px;
+    position: absolute;
+    box-shadow: #000000;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.açlık {
+    border: 2px solid rgba(56, 56, 56, 0.781);
+    width: 80px;
+    height: 20px;
+    position: relative;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.4);
+    rotate: z 9.43rad;
+}
+
+@media only screen and (max-width: 1600px) {
+    body .açlık {
+        border: 2px solid rgba(56, 56, 56, 0.781);
+        width: 90px;
+        height: 20px;
+        position: relative;
+        overflow: hidden;
+        background-color: rgba(0, 0, 0, 0.4);
+        rotate: z 9.43rad;
+    }
+}
+
+@media only screen and (max-width: 1366px) {
+  body .açlık {
+      border: 2px solid rgba(56, 56, 56, 0.781);
+      width: 90px;
+      height: 19px;
+      position: relative;
+      overflow: hidden;
+      background-color: rgba(0, 0, 0, 0.4);
+      rotate: z 9.43rad;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  body .açlık {
+      border: 2px solid rgba(56, 56, 56, 0.781);
+      width: 90px;
+      height: 23px;
+      position: relative;
+      overflow: hidden;
+      background-color: rgba(0, 0, 0, 0.4);
+      rotate: z 9.43rad;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  body .açlık {
+      border: 2px solid rgba(56, 56, 56, 0.781);
+      width: 90px;
+      height: 19px;
+      position: relative;
+      overflow: hidden;
+      background-color: rgba(0, 0, 0, 0.4);
+      rotate: z 9.43rad;
+  }
+}
+
+.açlık .bg {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    rotate: z 9.43rad;
+}
+
+.açlık img {
+    width: 14px;
+    position: absolute;
+    box-shadow: #000000;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.susuzluk {
+    border: 2px solid rgba(56, 56, 56, 0.781);
+    width: 80px;
+    height: 20px;
+    position: relative;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.4);
+    rotate: z 9.43rad;
+}
+
+@media only screen and (max-width: 1600px) {
+    body .susuzluk {
+        border: 2px solid rgba(56, 56, 56, 0.781);
+        width: 90px;
+        height: 20px;
+        position: relative;
+        overflow: hidden;
+        background-color: rgba(0, 0, 0, 0.4);
+        rotate: z 9.43rad;
+    }
+}
+
+@media only screen and (max-width: 1366px) {
+  body .susuzluk {
+      border: 2px solid rgba(56, 56, 56, 0.781);
+      width: 90px;
+      height: 19px;
+      position: relative;
+      overflow: hidden;
+      background-color: rgba(0, 0, 0, 0.4);
+      rotate: z 9.43rad;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  body .susuzluk {
+      border: 2px solid rgba(56, 56, 56, 0.781);
+      width: 90px;
+      height: 23px;
+      position: relative;
+      overflow: hidden;
+      background-color: rgba(0, 0, 0, 0.4);
+      rotate: z 9.43rad;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  body .susuzluk {
+      border: 2px solid rgba(56, 56, 56, 0.781);
+      width: 90px;
+      height: 19px;
+      position: relative;
+      overflow: hidden;
+      background-color: rgba(0, 0, 0, 0.4);
+      rotate: z 9.43rad;
+  }
+}
+
+.susuzluk .bg {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    rotate: z 9.43rad;
+}
+
+.susuzluk img {
+    width: 14px;
+    position: absolute;
+    box-shadow: #000000;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.stress { 
+  border: 2px solid rgba(56, 56, 56, 0.781);
+  width: 80px;
+  height: 20px;
+  position: relative;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.4);
+  rotate: z 9.43rad;
+}
+
+@media only screen and (max-width: 1600px) {
+  body .stress {
+      border: 2px solid rgba(56, 56, 56, 0.781);
+      width: 90px;
+      height: 20px;
+      position: relative;
+      overflow: hidden;
+      background-color: rgba(0, 0, 0, 0.4);
+      rotate: z 9.43rad;
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+body .stress {
+    border: 2px solid rgba(56, 56, 56, 0.781);
+    width: 90px;
+    height: 19px;
+    position: relative;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.4);
+    rotate: z 9.43rad;
+}
+}
+
+@media only screen and (max-width: 1280px) {
+body .stress {
+    border: 2px solid rgba(56, 56, 56, 0.781);
+    width: 90px;
+    height: 23px;
+    position: relative;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.4);
+    rotate: z 9.43rad;
+}
+}
+
+@media only screen and (max-width: 1024px) {
+body .stress {
+    border: 2px solid rgba(56, 56, 56, 0.781);
+    width: 90px;
+    height: 19px;
+    position: relative;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.4);
+    rotate: z 9.43rad;
+}
+}
+
+.stress .bg {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  rotate: z 9.43rad;
+}
+
+.stress img {
+  width: 13px;
+  position: absolute;
+  box-shadow: #000000;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.stamina {
+    border: 2px solid rgba(56, 56, 56, 0.781);
+    width: 80px;
+    height: 20px;
+    position: relative;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.4);
+    rotate: z 9.43rad;
+}
+
+@media only screen and (max-width: 1600px) {
+    body .stamina {
+        border: 2px solid rgba(56, 56, 56, 0.781);
+        width: 90px;
+        height: 20px;
+        position: relative;
+        overflow: hidden;
+        background-color: rgba(0, 0, 0, 0.4);
+        rotate: z 9.43rad;
+    }
+}
+
+@media only screen and (max-width: 1366px) {
+  body .stamina {
+      border: 2px solid rgba(56, 56, 56, 0.781);
+      width: 90px;
+      height: 19px;
+      position: relative;
+      overflow: hidden;
+      background-color: rgba(0, 0, 0, 0.4);
+      rotate: z 9.43rad;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  body .stamina {
+      border: 2px solid rgba(56, 56, 56, 0.781);
+      width: 90px;
+      height: 23px;
+      position: relative;
+      overflow: hidden;
+      background-color: rgba(0, 0, 0, 0.4);
+      rotate: z 9.43rad;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  body .stamina {
+      border: 2px solid rgba(56, 56, 56, 0.781);
+      width: 90px;
+      height: 19px;
+      position: relative;
+      overflow: hidden;
+      background-color: rgba(0, 0, 0, 0.4);
+      rotate: z 9.43rad;
+  }
+}
+
+.stamina .bg {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    rotate: z 9.43rad;
+}
+
+.stamina img {
+    width: 14px;
+    position: absolute;
+    box-shadow: #000000;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+}
+
+#boxAclık {
+    background:  #ff9f50;
+    width: 100%;
+    height: 100%;
+    transition: 0.3s ease-in-out;
+}
+
+#boxSusuzluk {
+    background:  #6686df;
+    width: 100%;
+    height: 100%;
+    transition: 0.3s ease-in-out;
+}
+
+#boxStamina {
+    background: #414255;
+    width: 100%;
+    height: 100%;
+    transition: 0.3s ease-in-out;
+}
+
+#boxCan {
+    background:  #ff4444;
+    width: 100%;
+    height: 100%;
+    transition: 0.3s ease-in-out;
+}
+
+#boxArmor {
+    background: #1100ff;
+    width: 100%;
+    height: 100%;
+    transition: 0.3s ease-in-out;
+}
+
+#boxOxy {
+    background: #00a0784f;
+    width: 100%;
+    height: 100%;
+    transition: 0.3s ease-in-out;
+}
+
+#boxStress {
+  background: #8b0000;
+  width: 100%;
+  height: 100%;
+  transition: 0.3s ease-in-out;
+}
+
+.playerStatsOxy {
+  position: absolute;
+  left: 350px;
+  /* Default: 350px */
+  /* Default: 20px */
+  left: 1.35%;
+  /* (18.2% Right Side of Map) | (82.0% Right Side of Screen) | (2.7% Above Map)  */
+  bottom: 0.15%;
+  /* (1.85% Default-Fix for all 16:9 resolutions) | (21.0% Above Map) */
+}
+
+@media only screen and (max-width: 1600px) {
+  body .playerStatsOxy {
+      position: absolute;
+      left: 350px;
+      /* Default: 350px */
+      bottom: 20px;
+      /* Default: 20px */
+      left: 1.3%;
+      /* (18.2% Right Side of Map) | (82.0% Right Side of Screen) | (2.7% Above Map)  */
+      bottom: 0.05%;
+      /* (1.85% Default-Fix for all 16:9 resolutions) | (21.0% Above Map) */
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  body .playerStatsOxy {
+      position: absolute;
+      left: 350px;
+      /* Default: 350px */
+      bottom: 20px;
+      /* Default: 20px */
+      left: 1.3%;
+      /* (18.2% Right Side of Map) | (82.0% Right Side of Screen) | (2.7% Above Map)  */
+      bottom: 0.05%;
+      /* (1.85% Default-Fix for all 16:9 resolutions) | (21.0% Above Map) */
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  body .playerStatsOxy {
+      position: absolute;
+      left: 350px;
+      /* Default: 350px */
+      bottom: 20px;
+      /* Default: 20px */
+      left: 1.3%;
+      /* (18.2% Right Side of Map) | (82.0% Right Side of Screen) | (2.7% Above Map)  */
+      bottom: 0.05%;
+      /* (1.85% Default-Fix for all 16:9 resolutions) | (21.0% Above Map) */
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  body .playerStatsOxy {
+      position: absolute;
+      left: 350px;
+      /* Default: 350px */
+      bottom: 20px;
+      /* Default: 20px */
+      left: 1.3%;
+      /* (18.2% Right Side of Map) | (82.0% Right Side of Screen) | (2.7% Above Map)  */
+      bottom: 0.05%;
+      /* (1.85% Default-Fix for all 16:9 resolutions) | (21.0% Above Map) */
+  }
+}
+
+.statusOxy {
+  display: flex;
+  bottom: 5px;
+  width: 275px;
+  position: relative;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 1600px) {
+  body .statusOxy {
+      display: flex;
+      bottom: -28px;
+      width: 225px;
+      position: relative;
+      justify-content: space-between;
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  body .statusOxy {
+      display: flex;
+      bottom: -52px;
+      width: 192px;
+      position: relative;
+      justify-content: space-between;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  body .statusOxy {
+      display: flex;
+      bottom: -5px;
+      width: 257px;
+      position: relative;
+      justify-content: space-between;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  body .statusOxy {
+      display: flex;
+      bottom: -52px;
+      width: 192px;
+      position: relative;
+      justify-content: space-between;
+  }
+}
+
+.oxy {
+    border: 2px solid rgba(56, 56, 56, 0.781);
+    width: 271px;
+    height: 27px;
+    left: 3px;
+    bottom: 200px;
+    position: relative;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.4);
+    rotate: z 9.43rad;
+}
+
+.oxy .bg {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    rotate: z 9.43rad;
+}
+
+.oxy img {
+    width: 7%;
+    position: absolute;
+    left: 94%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* #boxVoice {
+    background: rgba(0, 0, 0, 0.0);
+    width: 100%;
+    height: 100%;
+    transition: 0.3s ease-in-out;
+} */
+
+#container {
+  font-size: 20px;
+  padding: 25px;
+  color: white;
+  position: fixed;
+  border-right: 15px solid #ff4444;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(44, 44, 44);
+  height: 455px;
+  width: 210px;
+  border-radius: 7px;
+}
+
+
+#close{
+  position: absolute;
+  top: 12px;
+  right: 155px;
+}
+
+#healtcheck, #armorcheck, #hungercheck, #thirstcheck, #staminacheck, #mapcheck, #sinemacheck, #hepsicheck, #stresscheck {
+  position: absolute;
+  top: 13px;
+  left: 10px;
+}
+
+#healtid, #armorid, #burgerid, #thirstid, #staminaid, #mapdisplayid {
+  right: 10px;
+}
+
+@media only screen and (max-width: 1024px) {
+  body .statusOxy {
+      display: flex;
+      bottom: -52px;
+      width: 192px;
+      position: relative;
+      justify-content: space-between;
+  }
+}
+
+button {
+    position: relative;
+    background-color: aliceblue;
+    padding: 12px;
+}
+
+input {
+    position: relative;
+    margin-bottom: 2px;
+    width: 100%;
+    font-size: 15px;
+    padding: 2px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.8em;
+    width: 400px;
+    margin: 0 auto;
+  }
+  
+  p {
+    position: relative;
+    margin-bottom: 12px;
+    top: 20px;
+    left: 20px;
+  }
+  
+  .toggleSwitch span span {
+    display: none;
+  }
+  
+    .toggleSwitch {
+      display: inline-block;
+      height: 18px;
+      position: relative;
+      overflow: visible;
+      padding: 0;
+      margin-left: 50px;
+      cursor: pointer;
+      width: 40px
+    }
+    .toggleSwitch * {
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+    .toggleSwitch label,
+    .toggleSwitch > span {
+      line-height: 20px;
+      height: 20px;
+      vertical-align: middle;
+    }
+    .toggleSwitch input:focus ~ a,
+    .toggleSwitch input:focus + label {
+      outline: none;
+    }
+    .toggleSwitch label {
+      position: relative;
+      z-index: 3;
+      display: block;
+      width: 100%;
+    }
+    .toggleSwitch input {
+      position: absolute;
+      opacity: 0;
+      z-index: 5;
+    }
+    .toggleSwitch > span {
+      position: absolute;
+      left: -50px;
+      width: 100%;
+      margin: 0;
+      padding-right: 50px;
+      text-align: left;
+      white-space: nowrap;
+    }
+    .toggleSwitch > span span {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      display: block;
+      width: 50%;
+      margin-left: 50px;
+      text-align: left;
+      font-size: 0.9em;
+      width: 100%;
+      left: 15%;
+      top: -1px;
+      opacity: 0;
+    }
+    .toggleSwitch a {
+      position: absolute;
+      right: 50%;
+      z-index: 4;
+      display: block;
+      height: 100%;
+      padding: 0;
+      left: 2px;
+      width: 18px;
+      background-color: #fff;
+      border: 1px solid #CCC;
+      border-radius: 100%;
+      -webkit-transition: all 0.2s ease-out;
+      -moz-transition: all 0.2s ease-out;
+      transition: all 0.2s ease-out;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    }
+    .toggleSwitch > span span:first-of-type {
+      color: #ccc;
+      opacity: 1;
+      left: 45%;
+    }
+    .toggleSwitch > span:before {
+      content: '';
+      display: block;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      left: 50px;
+      top: -2px;
+      background-color: rgb(59, 59, 59);
+      border: 1px solid rgb(59, 59, 59);
+      border-radius: 30px;
+      -webkit-transition: all 0.2s ease-out;
+      -moz-transition: all 0.2s ease-out;
+      transition: all 0.2s ease-out;
+    }
+    .toggleSwitch input:checked ~ a {
+      border-color: #fff;
+      left: 100%;
+      margin-left: -8px;
+    }
+    .toggleSwitch input:checked ~ span:before {
+      border-color: #ff4444;
+      box-shadow: inset 0 0 0 30px #ff4444;
+    }
+    .toggleSwitch input:checked ~ span span:first-of-type {
+      opacity: 0;
+    }
+    .toggleSwitch input:checked ~ span span:last-of-type {
+      opacity: 1;
+      color: #fff;
+    }
+    /* Switch Sizes */
+    .toggleSwitch.large {
+      width: 60px;
+      height: 27px;
+    }
+    .toggleSwitch.large a {
+      width: 27px;
+    }
+    .toggleSwitch.large > span {
+      height: 29px;
+      line-height: 28px;
+    }
+    .toggleSwitch.large input:checked ~ a {
+      left: 41px;
+    }
+    .toggleSwitch.large > span span {
+      font-size: 1.1em;
+    }
+    .toggleSwitch.large > span span:first-of-type {
+      left: 50%;
+    }
+    .toggleSwitch.xlarge {
+      width: 80px;
+      height: 36px;
+    }
+    .toggleSwitch.xlarge a {
+      width: 36px;
+    }
+    .toggleSwitch.xlarge > span {
+      height: 38px;
+      line-height: 37px;
+    }
+    .toggleSwitch.xlarge input:checked ~ a {
+      left: 52px;
+    }
+    .toggleSwitch.xlarge > span span {
+      font-size: 1.4em;
+    }
+    .toggleSwitch.xlarge > span span:first-of-type {
+      left: 50%;
+    }
+
+
+  
+
+body {
+    background: none !important;
+    overflow: hidden;
+    height: 1080px;
+    width: 100%;
+}

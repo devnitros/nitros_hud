@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="da-DK">
+
+<head>
+    <meta charset="utf-8">
+    <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+    <script src="jquery.min.js" type="text/javascript"></script>
+    <script src="jquery-ui.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="ui.css" type="text/css">
+    <script src="ui.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <div id="container">
+        <img src="html/nuiicons/close.png" id="close" alt="">
+        <div>
+            <p>
+                <img src="html/nuiicons/hepsiicon.png" alt="" id="hepsiid">
+                <label class="toggleSwitch nolabel" id="hepsicheck">
+                      <input type="checkbox" onclick="handleClick('hepsihandle');" unchecked />
+                      <span>
+                      </span>
+                      <a></a>
+                  </label>
+              </p>
+        </div>
+            <div class="sss">
+                <p>
+                    <img src="html/nuiicons/healt.png" alt="" id="healtid">
+                    <label class="toggleSwitch nolabel" id="healtcheck" >
+                          <input type="checkbox" onclick="handleClick('can');" checked />
+                          <span>
+                          </span>
+                          <a></a>
+                      </label>
+                  </p>
+                </div>
+                <div>
+                    <p>
+                        <img src="html/nuiicons/armor.png" alt="" id="armorid">
+                        <label class="toggleSwitch nolabel" id="armorcheck">
+                              <input type="checkbox" onclick="handleClick('armor');" checked />
+                              <span>
+                              </span>
+                              <a></a>
+                          </label>
+                      </p>
+                </div>
+                <div>
+                    <p>
+                        <img src="html/nuiicons/burger.png" alt="" id="burgerid">
+                        <label class="toggleSwitch nolabel" id="hungercheck">
+                              <input type="checkbox" onclick="handleClick('açlık');" checked />
+                              <span>
+                              </span>
+                              <a></a>
+                          </label>
+                      </p>
+                </div>
+                <div>
+                    <p>
+                        <img src="html/nuiicons/thirst.png" alt="" id="thirstid">
+                        <label class="toggleSwitch nolabel" id="thirstcheck">
+                              <input type="checkbox" onclick="handleClick('susuzluk');" checked />
+                              <span>
+                              </span>
+                              <a></a>
+                          </label>
+                      </p>
+                </div>
+                <div>
+                    <p>
+                        <img src="html/nuiicons/stamina.png" alt="" id="staminaid">
+                        <label class="toggleSwitch nolabel" id="staminacheck">
+                              <input type="checkbox" onclick="handleClick('stamina');" checked />
+                              <span>
+                              </span>
+                              <a></a>
+                          </label>
+                      </p>
+                </div>
+                <div>
+                    <p>
+                        <img src="html/nuiicons/beyin.png" alt="" id="stressid">
+                        <label class="toggleSwitch nolabel" id="stresscheck">
+                              <input type="checkbox" onclick="handleClick('stresshandle');" checked />
+                              <span>
+                              </span>
+                              <a></a>
+                          </label>
+                      </p>
+                </div>
+                <div>
+                    <p>
+                        <img src="html/nuiicons/oxygen.png" alt="" id="staminaid">
+                        <label class="toggleSwitch nolabel" id="staminacheck">
+                              <input type="checkbox" onclick="handleClick('oksijen');" unchecked />
+                              <span>
+                              </span>
+                              <a></a>
+                          </label>
+                      </p>
+                </div>
+                <!-- <div>
+                    <p>
+                        <img src="html/nuiicons/harita.png" alt="" id="mapdisplayid">
+                        <label class="toggleSwitch nolabel" id="mapcheck">
+                              <input type="checkbox" onclick="handleClick('mapdisplay');" checked />
+                              <span>
+                              </span>
+                              <a></a>
+                          </label>
+                      </p>
+                </div> -->
+                <div>
+                    <p>
+                        <img src="html/nuiicons/sinemaicon.png" alt="" id="sinemadisplayid">
+                        <label class="toggleSwitch nolabel" id="sinemacheck">
+                              <input type="checkbox" onclick="handleClick('sinematikhandle');" unchecked />
+                              <span>
+                              </span>
+                              <a></a>
+                          </label>
+                      </p>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div id="ui">
+        <div class="playerStatsOxy">
+        <div class="statusOxy">
+        <div class="oxy">
+            <div id="boxOxy">
+                <div class="bg"><img src="html/oxy1.png"></div>
+        </div>
+    </div>
+</div>
+        <div class="playerStats">
+            <div class="status">
+                <div class="can">
+                    <div id="boxCan">
+                        <div class="bg"><img src="html/health.png"></div>
+                    </div>
+                </div>
+
+                <div class="armor">
+                    <div id="boxArmor">
+                        <div class="bg"><img src="html/ss/shield.png"></div>
+                    </div>
+                </div>
+
+                <div class="açlık">
+                    <div id="boxAclık">
+                        <div class="bg"><img src="html/ss/burger.png"></div>
+                    </div>
+                </div>
+
+                <div class="susuzluk">
+                    <div id="boxSusuzluk">
+                        <div class="bg"><img src="html/ss/water.png"></div>
+                    </div>
+                </div>
+
+                <div class="stress">
+                    <div id="boxStress">
+                        <div class="bg"><img src="html/ss/brain.png"></div>
+                    </div>
+                </div>
+
+                <div class="stamina">
+                    <div id="boxStamina">
+                        <div class="bg"><img src="html/ss/stamina.png"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
